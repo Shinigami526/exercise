@@ -1,1 +1,25 @@
-@import './lib/variable'
+@import './lib/variable';
+
+
+.Container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, $percentage-primary);
+    height: 100vh;
+    
+}
+.item{
+ border: 1px solid $color-brand;
+}
+
+
+ @media screen and (max-width: 720px) and (min-width: 360px){
+   .Container{
+     grid-template-columns: repeat(auto-fill, $percentage-secondary);
+   }
+ }
+
+ @media screen and (max-width: 360px){
+   .Container{
+     grid-template-columns: repeat(auto-fill, $percentage-tertiary);
+   }
+ }

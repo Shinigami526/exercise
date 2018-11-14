@@ -1,0 +1,1 @@
+.Container{display:grid;grid-template-columns:repeat(auto-fill,25%);height:100vh}.item{border:1px solid #000}@media screen and (max-width:720px) and (min-width:360px){.Container{grid-template-columns:repeat(auto-fill,50%)}}@media screen and (max-width:360px){.Container{grid-template-columns:repeat(auto-fill,100%)}}
