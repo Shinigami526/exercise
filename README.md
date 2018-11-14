@@ -1,19 +1,31 @@
 <div align="center">
+  <a href="https://github.com/babel/babel">
+    <img width="200" height="200" src="https://upload.wikimedia.org/wikipedia/commons/0/02/Babel_Logo.svg">
+  </a>
   <a href="https://github.com/webpack/webpack">
     <img width="200" height="200" src="https://webpack.js.org/assets/icon-square-big.svg">
   </a>
   <a href="https://github.com/eslint/eslint">
-    <img width="200" height="200" src="https://eslint.org/img/logo.svg">
+    <img width="200" height="200" src="https://static.crozdesk.com/web_app_library/providers/logos/000/004/129/original/trackjs-1522094349-logo.png?1522094349">
   </a>
-  <a href="https://github.com/eslint/eslint">
-    <img width="200" height="200" src="https://eslint.org/img/logo.svg">
+  <a href="https://prettier.io/">
+    <img width="200" height="200" src="https://meta-s3-cdn.freetls.fastly.net/original/3X/5/c/5cf638850999b71ae3c48a4aa5031c4a25473ef0.png">
+  </a>
+  <a href="https://github.com/circleci">
+    <img width="200" height="200" src="https://avatars2.githubusercontent.com/u/1231870?s=200&v=4">
+  </a>
+  <a href="https://github.com/TrackJs">
+    <img width="200" height="200" src="https://static.crozdesk.com/web_app_library/providers/logos/000/004/129/original/trackjs-1522094349-logo.png?1522094349">
+  </a>
+  <a href="https://github.com/circleci">
+    <img width="200" height="200" src="https://avatars2.githubusercontent.com/u/1231870?s=200&v=4">
   </a>
 </div>
   <br>
   <br>
 
-<p align="center">
-  Tools
+<p align="center" style="font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif; font-size: 36px>
+   Tools
 </p>
 
 ## Quick Overview
@@ -25,4 +37,5 @@ npm install o yarn
 ```
 
 Then open [http://localhost:9000/](http://localhost:9000/) to see your app.<br>
-When you’re ready to deploy to production, create a minified bundle with `yarn build:dev`.
+When you’re ready to deploy to production, create a minified bundle with `yarn build:prod`.
+when you’re ready to deploy to development, bundle with `yarn build:dev`.
