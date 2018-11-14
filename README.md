@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://github.com/babel/babel">
-    <img width="300" height="300" src="https://upload.wikimedia.org/wikipedia/commons/0/02/Babel_Logo.svg">
+    <img width="200" height="200" src="https://upload.wikimedia.org/wikipedia/commons/0/02/Babel_Logo.svg">
   </a>
   <a href="https://github.com/webpack/webpack">
     <img width="200" height="200" src="https://webpack.js.org/assets/icon-square-big.svg">
