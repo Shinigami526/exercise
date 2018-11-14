@@ -1,12 +1,9 @@
-import React, { Component } from 'react';
-import Exercise from '../components/exercise';
-
+import React, { Component } from "react";
+import Exercise from "../components/exercise";
 
 class App extends Component {
   render() {
-    return (
-      <Exercise />
-    );
+    return <Exercise />;
   }
 }
 
