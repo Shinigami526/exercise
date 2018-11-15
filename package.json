@@ -12,7 +12,7 @@
     "build:local": "webpack --env.NODE_ENV=local",
     "build:prod": "webpack -p --env.NODE_ENV=production",
     "test": "jest",
-    "format": "prettier --write \"src/**/*.{js,jsx,css,json}\"",
+    "format": "prettier --write \"src/**/*.{js,jsx,css,scss,json}\"",
     "format:check": "prettier --list-different \"src/**/*.{js,jsx,css,json}\"",
     "lint": "eslint \"src/**/*.{js,jsx}\" --quiet"
   },

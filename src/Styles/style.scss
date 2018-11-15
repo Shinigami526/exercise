@@ -1,27 +1,26 @@
-@import './lib/variable';
-
+@import "./lib/variable";
 
 .Container {
-    display: grid;
-    grid-template-columns: repeat($auto, $percentage-primary);
-    height: 100vh;
-    
+  display: grid;
+  grid-template-columns: repeat($auto, $percentage-primary);
+  height: 100vh;
 }
-.item{
- border: 1px solid $color-brand;
- display: grid;
- grid-template-columns: repeat($auto, $percentage-primary);
+.item {
+  border: 1px solid $color-brand;
+  display: grid;
+  grid-template-columns: repeat($auto, $percentage-primary);
 }
 
+@media screen and (max-width: 720px) and (min-width: 360px) {
+  .Container,
+  .item {
+    grid-template-columns: repeat($auto, $percentage-secondary);
+  }
+}
 
- @media screen and (max-width: 720px) and (min-width: 360px){
-   .Container, .item{
-     grid-template-columns: repeat($auto, $percentage-secondary);
-   }
- }
-
- @media screen and (max-width: 360px){
-   .Container, .item{
-     grid-template-columns: repeat($auto, $percentage-tertiary);
-   }
- }
+@media screen and (max-width: 360px) {
+  .Container,
+  .item {
+    grid-template-columns: repeat($auto, $percentage-tertiary);
+  }
+}
